@@ -1,0 +1,33 @@
+.cart {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.quantity {
+  margin: 0 10px;
+}
+
+.delete {
+  background-color: rgb(172, 114, 43);
+  border-radius: 2%;
+  cursor: pointer;
+}
+
+.like {
+   background-color: bisque;
+  border-top-right-radius: 2%;
+  cursor: pointer;
+}
+
+.liked {
+  color: red;
+}
